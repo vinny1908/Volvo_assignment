@@ -1,7 +1,7 @@
 class CheckParagraph{
 
     get parent(){
-        return $('.a.bv.bw.bx.by.ca.er.es.ew.ex.ey');
+        return $('//a[@data-autoid="nav:siteNavLogoSmall"]//img');
     }
 
     get child(){
